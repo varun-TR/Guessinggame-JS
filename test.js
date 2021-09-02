@@ -29,13 +29,12 @@ while(parseInt(guess)!==random)
         alert("you have been exitted");
         break;
     } 
+     else{
+        alert(`congrats! you have done it in ${count} attempts`);
+    }
 
 }
 
-if(guess===random)
-{
-alert(`congrats! you have done it in ${count} attempts`);
-}
 console.log(`you have done it in ${count} attempts`);
 
 
